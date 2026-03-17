@@ -1,0 +1,27 @@
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .cards-section {
+    padding: 40px 28px 56px;
+  }
+
+  .brand-hero {
+    margin-bottom: 30px;
+  }
+
+  .cards-grid {
+    max-width: 1240px;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .social-card {
+    min-height: 340px;
+  }
+
+  .social-card__title {
+    font-size: 32px;
+  }
+
+  .social-card__text {
+    font-size: 16px;
+  }
+}

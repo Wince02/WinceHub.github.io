@@ -1,0 +1,98 @@
+@media (max-width: 767px) {
+  .cards-section {
+    min-height: auto;
+    padding: 28px 14px 40px;
+    justify-content: flex-start;
+  }
+
+  .brand-hero {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .brand-shell {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 14px 18px;
+  }
+
+  .brand-title {
+    font-size: clamp(32px, 11vw, 54px);
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 100%;
+  }
+
+  .social-card {
+    min-height: auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .social-card__badge {
+    font-size: 11px;
+    padding: 7px 12px;
+    margin-bottom: 14px;
+  }
+
+  .social-card__title {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  .social-card__text {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+
+  .social-card__footer {
+    margin-top: 22px;
+  }
+
+  .social-card__button,
+  .social-card__button_black {
+    width: 100%;
+    min-width: 100%;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .modal-window {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 22px;
+  }
+
+  .modal-content {
+    padding: 26px 18px 20px;
+  }
+
+  .modal-title {
+    font-size: 26px;
+  }
+
+  .modal-text,
+  .modal-box {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .modal-action-button,
+  .modal-telegram-button {
+    width: 100%;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cards-section {
+    min-height: auto;
+    padding: 36px 24px 50px;
+    justify-content: flex-start;
+  }
+
+  .brand-hero {
+    margin-bottom: 26px;
+  }
+
+  .brand-shell {
+    padding: 12px 22px 20px;
+  }
+
+  .brand-title {
+    font-size: clamp(46px, 7vw, 72px);
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    max-width: 920px;
+    gap: 20px;
+  }
+
+  .social-card:nth-child(3) {
+    grid-column: 1 / -1;
+    max-width: 460px;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .social-card {
+    min-height: 300px;
+    padding: 24px;
+  }
+
+  .social-card__title {
+    font-size: 28px;
+  }
+
+  .social-card__text {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .social-card__button,
+  .social-card__button_black {
+    min-width: 220px;
+    font-size: 15px;
+  }
+
+  .modal-window {
+    width: min(760px, 94vw);
+  }
+}

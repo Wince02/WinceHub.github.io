@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinceHub розыгрыш дота плюса</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="brand.css">
+
+    <link rel="stylesheet" href="responsive-mobile.css">
+<link rel="stylesheet" href="responsive-tablet.css">
+<link rel="stylesheet" href="responsive-desktop.css">
+<link rel="stylesheet" href="responsive-tv.css">
+</head>
+<body>
+    <div id="background">
+        <div id="particles-js"></div>
+        <div id="overlay"></div>
+    </div>
+
+    <main class="cards-section">
+        <div class="brand-hero">
+    <div class="brand-shell">
+        <h1 class="brand-title">
+            <span class="brand-title__wince">Wince</span><span class="brand-title__hub">Hub</span>
+        </h1>
+    </div>
+</div>
+        <div class="cards-grid">
+            <article class="social-card">
+                <div>
+                    <div class="social-card__badge">YouTube</div>
+                    <h2 class="social-card__title">Мой YouTube</h2>
+                    <p class="social-card__text">
+                        Здесь будут мои видео, новые ролики и весь основной контент канала.
+                    </p>
+                </div>
+
+                <div class="social-card__footer">
+                    <a class="social-card__button social-card__button--youtube" href="https://www.youtube.com/@HiImWince02" target="_blank" rel="noopener noreferrer">
+                        Перейти на канал
+                    </a>
+                </div>
+            </article>
+
+            <article class="social-card social-card--empty">
+                <div>
+                    <div class="social-card__badge social-card__badge--gold">DOTA PLUS</div>
+                    <h2 class="social-card__title">ПОЛУЧИ БЕСПЛАТНО</h2>
+                    <p class="social-card__text">
+                        Получи бесплатный DOTA PLUS, выполнив простые условия
+                    </p>
+                </div>
+
+                <div class="social-card__footer">
+                    <button class="social-card__button_black social-card__button--telegram" type="button" id="open-dota-overlay">
+                        ПОДРОБНЕЕ
+                    </button>
+                </div>
+            </article>
+
+            <article class="social-card">
+                <div>
+                    <div class="social-card__badge">Twitch</div>
+                    <h2 class="social-card__title">Мой Twitch</h2>
+                    <p class="social-card__text">
+                        Здесь будут мои стримы, прямые эфиры и live-контент.
+                    </p>
+                </div>
+
+                <div class="social-card__footer">
+                    <a class="social-card__button social-card__button--twitch" href="https://www.twitch.tv/wince02" target="_blank" rel="noopener noreferrer">
+                        Перейти на Twitch
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="dota-overlay" aria-hidden="true">
+        <div class="modal-backdrop" data-close-overlay></div>
+
+        <div class="modal-window" role="dialog" aria-modal="true" aria-labelledby="dota-overlay-title">
+            <button class="modal-close" type="button" id="close-dota-overlay" aria-label="Закрыть окно">
+                ×
+            </button>
+
+            <div class="modal-glow"></div>
+            <div class="modal-shine"></div>
+
+            <div class="modal-content">
+                <div class="social-card__badge social-card__badge--gold">DOTA PLUS</div>
+                <h2 class="modal-title" id="dota-overlay-title">Получи бесплатно</h2>
+                <p class="modal-text">
+                    Выполни несколько простых шагов, чтобы получить возможность получить DOTA PLUS и наслаждаться всеми его преимуществами в игре!
+                </p>
+
+                <div class="modal-box">
+                    <p>
+                        УСЛОВИЯ ВЫПОЛНЕНИЯ:
+                    </p>
+                    <p>
+                        — Подписаться на телеграм канал, твитч, ютуб<br>
+                        — Подтверди участие под постом в тг<br>
+                        — всего на 50 подписчиков подводим итоги на 3 DOTA PLUS
+                        (подробнее в тг)
+                    </p>
+                </div>
+
+                <div class="modal-actions">
+    <button class="modal-action-button" type="button" id="modal-ok-button">
+        Понятно
+    </button>
+
+    <a class="modal-telegram-button" href="https://t.me/wince02" target="_blank" rel="noopener noreferrer">
+        Telegram
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <link rel="icon" href="data:;base64,=">
+    <script src="particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="card.js"></script>
+</body>
+</html>
